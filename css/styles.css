@@ -1,8 +1,9 @@
 /* Add this CSS file to each page for a consistent look*/
 /* Add @Import for personal font */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 body{
-    font-family: 'TODO: FONT NAME', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     padding: 0;
     margin: 0;
     background-color: var(--md-sys-color-background);
@@ -135,3 +136,54 @@ footer ul li{
 }
 
 /* Add Matirial Design .light here: */
+.light {
+  --md-sys-color-primary: rgb(86 100 34);
+  --md-sys-color-surface-tint: rgb(86 100 34);
+  --md-sys-color-on-primary: rgb(255 255 255);
+  --md-sys-color-primary-container: rgb(217 235 153);
+  --md-sys-color-on-primary-container: rgb(63 76 11);
+  --md-sys-color-secondary: rgb(92 97 70);
+  --md-sys-color-on-secondary: rgb(255 255 255);
+  --md-sys-color-secondary-container: rgb(224 230 195);
+  --md-sys-color-on-secondary-container: rgb(68 73 48);
+  --md-sys-color-tertiary: rgb(58 102 93);
+  --md-sys-color-on-tertiary: rgb(255 255 255);
+  --md-sys-color-tertiary-container: rgb(189 236 225);
+  --md-sys-color-on-tertiary-container: rgb(33 78 70);
+  --md-sys-color-error: rgb(186 26 26);
+  --md-sys-color-on-error: rgb(255 255 255);
+  --md-sys-color-error-container: rgb(255 218 214);
+  --md-sys-color-on-error-container: rgb(147 0 10);
+  --md-sys-color-background: rgb(251 250 237);
+  --md-sys-color-on-background: rgb(27 28 21);
+  --md-sys-color-surface: rgb(251 250 237);
+  --md-sys-color-on-surface: rgb(27 28 21);
+  --md-sys-color-surface-variant: rgb(227 228 211);
+  --md-sys-color-on-surface-variant: rgb(70 72 60);
+  --md-sys-color-outline: rgb(119 120 106);
+  --md-sys-color-outline-variant: rgb(199 200 184);
+  --md-sys-color-shadow: rgb(0 0 0);
+  --md-sys-color-scrim: rgb(0 0 0);
+  --md-sys-color-inverse-surface: rgb(48 49 41);
+  --md-sys-color-inverse-on-surface: rgb(242 241 229);
+  --md-sys-color-inverse-primary: rgb(189 206 128);
+  --md-sys-color-primary-fixed: rgb(217 235 153);
+  --md-sys-color-on-primary-fixed: rgb(23 30 0);
+  --md-sys-color-primary-fixed-dim: rgb(189 206 128);
+  --md-sys-color-on-primary-fixed-variant: rgb(63 76 11);
+  --md-sys-color-secondary-fixed: rgb(224 230 195);
+  --md-sys-color-on-secondary-fixed: rgb(25 30 8);
+  --md-sys-color-secondary-fixed-dim: rgb(196 202 169);
+  --md-sys-color-on-secondary-fixed-variant: rgb(68 73 48);
+  --md-sys-color-tertiary-fixed: rgb(189 236 225);
+  --md-sys-color-on-tertiary-fixed: rgb(0 32 27);
+  --md-sys-color-tertiary-fixed-dim: rgb(161 208 197);
+  --md-sys-color-on-tertiary-fixed-variant: rgb(33 78 70);
+  --md-sys-color-surface-dim: rgb(219 219 206);
+  --md-sys-color-surface-bright: rgb(251 250 237);
+  --md-sys-color-surface-container-lowest: rgb(255 255 255);
+  --md-sys-color-surface-container-low: rgb(245 244 232);
+  --md-sys-color-surface-container: rgb(239 238 226);
+  --md-sys-color-surface-container-high: rgb(233 233 220);
+  --md-sys-color-surface-container-highest: rgb(228 227 215);
+}
