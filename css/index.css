@@ -5,7 +5,10 @@ main{
 .left_side{
     width: 100%;
     height:fit-content;
-    padding: 15px;
+    background-color: var(--md-sys-color-primary-container);
+    border-radius: 20px ;
+    padding: 15px 15px 25px 15px;
+    margin-right: 5px;
 }
 input{
     margin-bottom: 20px;
@@ -16,4 +19,5 @@ input{
     border-radius: 20px ;
     background-color: var(--md-sys-color-tertiary-container);
     padding: 15px;
+    margin-left: 5px;
 }
